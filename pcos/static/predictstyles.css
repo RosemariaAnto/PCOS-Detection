@@ -1,0 +1,282 @@
+/* Add styles for the input container and error message */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15em;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+.py-5 {
+    padding-top: 1.4rem !important;
+}
+
+
+/* Navigation bar */
+
+.nav-bar-image {
+    width: 8%;
+}
+
+.navbar {
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px 0 18px;
+}
+
+.nav-link {
+    font-size: 1.4rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+select {
+    border-radius: 4px;
+    width: 600px;
+    height: 45px;
+    color: grey;
+    border: 0.5px solid lightgrey;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.btn {
+    background-color: #fdfefe;
+    color: white;
+    transition-duration: .4s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* Sub div 1 */
+
+.good-one {
+    width: 90%;
+    display: flex;
+    float: left;
+}
+
+
+/* Sub div 2*/
+
+.good-two {
+    width: 10%;
+    display: flex;
+    float: right;
+}
+
+.input-column {
+    flex: 1;
+}
+
+.input-container {
+    margin-bottom: 15px;
+    /* Adjust the margin as needed */
+}
+
+.input-container label {
+    display: block;
+    /* Display the label as a block element */
+    margin-bottom: 5px;
+    /* Add some space between label and input field */
+}
+
+
+/* CSS for mobile devices */
+
+
+/*file upload form*/
+
+.container {
+    /* background-color: #444545; */
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 10px auto;
+    /* Center the container and adjust margin */
+    border-radius: 10px;
+    width: 100%;
+    max-height: 800px;
+    /* Set a maximum width for the container */
+}
+
+.center {
+    text-align: center;
+}
+
+#top {
+    margin-top: 20px;
+}
+
+.btn-container {
+    background: #fff;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 0 auto;
+    /* Center the container */
+    width: 800px;
+    /* Set the maximum width for the white container */
+    /* Make the white container full width */
+}
+
+.white {
+    color: white;
+}
+
+#namefile {
+    color: black;
+}
+
+h4>strong {
+    color: #ff3f3f
+}
+
+.btn-primary {
+    border-color: #ff3f3f !important;
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #ff3f3f !important;
+    border-color: #ff3f3f !important;
+    padding-top: 10px;
+}
+
+
+/* Submit button with minus circle icon */
+
+#fakebtn {
+    margin-top: 20px;
+    /* Adjust margin as needed */
+}
+
+
+/* Image upload icons */
+
+.imgupload {
+    font-size: 100px;
+    color: #999;
+    /* Default color for icons */
+    transition: all 0.3s ease;
+}
+
+
+/* Icon for valid file */
+
+.imgupload.ok {
+    color: green;
+    display: none;
+    /* Change color for valid file icon */
+}
+
+
+/* Icon for invalid file */
+
+.imgupload.stop {
+    color: red;
+    display: none;
+    /* Change color for invalid file icon */
+}
+
+
+/* Adjust margin as needed */
+
+
+/* Add styles for the input container and error message */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* Custom styling for image preview */
+
+#imagePreview {
+    width: 100%;
+    /* Set width as desired */
+    /* height: 15px; */
+    /* Set height as desired */
+    border: 2px solid #ccc;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    /* Add margin to create space */
+    display: none;
+    /* Initially hide the image preview */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the area */
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.card-body {
+    background-color: transparent !important;
+    border-radius: 10px;
+}
+
+.text-white {
+    color: white!important;
+}
+
+.btn-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn-container .btn {
+    margin-top: 10px;
+}
+
+.card-registration {
+    margin: 0 auto;
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 25px;
+    background-color: #00000078;
+}
+
+
+/* Custom styling for body background image */
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1419312520378-cbd583837112?q=80&w=1790&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')!important;
+    background-size: cover;
+    /* Adjust as needed */
+    background-position: center;
+    /* Adjust as needed */
+    background-repeat: no-repeat;
+    height: 100vh
+}
+
+
+/* Custom styling for navbar */
+
+.form-style {
+    text-align: center;
+}
